@@ -8,7 +8,6 @@ export default function Home() {
     fetch("http://localhost:4000/details")
       .then((res) => {
         return res.json();
-		console.log("git check")
       })
       .then((data) => {
         setS(data);
